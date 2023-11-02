@@ -1,0 +1,51 @@
+.gebakken{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5rem;
+
+    &_card{
+        width: 30rem;
+        height: max-content;
+        padding: 5rem 2rem;
+        background: #F1DEC9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        height: 50rem;
+
+    }
+
+    &_title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    &_header{
+        font-size: 5rem;
+    }
+
+    &_name{
+        font-size: 3rem;
+    }
+
+    &_intro{
+        font-size: 2rem;
+    }
+
+    &_button{
+        border: solid 1rem #8D7B68;
+        background: none;
+        font-size: 3rem;
+        cursor: pointer;
+    }
+
+}
