@@ -40,7 +40,7 @@ $select_all_gebakken = mysqli_query($connection, $query);
             <p class="gebakken_intro">
                 <?php echo $gebakken_intro ?>
             </p>
-            <a class="gebakken_link" href="gebak.php?gebak_slug=<?php echo $gebakken_slug; ?>">
+            <a class="gebakken_link" href="/gebak.php?gebak_slug=<?php echo $gebakken_slug; ?>">
             <button class="gebakken_button">meer info</button>
             </a>
         </div>
